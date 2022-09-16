@@ -1,0 +1,38 @@
+.alert_animation{
+    position: absolute;
+    animation: slideDown 1s ease-in-out;
+    justify-content: space-between;
+    width: 96.5%;
+    height: auto;
+    z-index: 1000;
+}
+
+.alert_animation p{
+    width: 100%;
+    text-align: center;
+}
+
+.alert_button{
+    size: 30px;
+    position:absolute; 
+    top:0; 
+    right:0;
+    margin-right: 5px;
+    background-color: #f8d7da;
+    border: none;
+    font-size: 26px;
+
+}
+
+.alert_animation p::first-letter{
+    text-transform: capitalize;
+}
+
+@keyframes slideDown{
+    from {
+        transform: translate3d(0, -150px, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}

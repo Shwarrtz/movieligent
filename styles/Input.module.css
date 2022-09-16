@@ -1,0 +1,19 @@
+.inputBorder {
+    padding: 25px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-color:  #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.inputBorder:invalid {
+    border-color: red;
+}
+
+.inputBorder:valid {
+    border-color: #ccc;
+}

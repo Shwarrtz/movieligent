@@ -1,0 +1,6 @@
+.filtersContainer {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0.25rem;
+    padding-top: 1rem;
+}
